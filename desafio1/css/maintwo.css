@@ -1,0 +1,160 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  width: 94.5rem;
+  padding: 0.9375rem 4.9375rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.logo-text {
+  color: var(--white, #FFF);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.header-1 {
+  background-color: #32325D;
+  height: 3.6875rem;
+}
+
+
+
+.post-container {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-card {
+  width: 48.1875rem;
+  height: 32.4375rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: var(--white, #FFF);
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+
+.post-img {
+  width: 48.1875rem;
+  height: 19.4625rem;
+  flex-shrink: 0;
+}
+
+.post-title {
+  color: var(--title, #3A4F9A);
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0.125rem;
+  padding: 1rem;
+}
+
+.post-text {
+  width: 42.2966rem;
+  height: 7.7707rem;
+  flex-shrink: 0;
+  color: var(--gray, #575757);
+  font-family: Inter;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+  letter-spacing: 0.0813rem;
+  padding: 1rem;
+}
+
+.comments-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  background-color: #FFF;
+  padding: 0.625rem;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.post-comments {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 47.625rem;
+  height: 18.75rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: var(--white, #FFF);
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+
+.post-users {
+  color: var(--title, #3A4F9A);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+  letter-spacing: 0.1rem;
+  padding: 0.7rem;
+
+}
+
+.post-content {
+  color: var(--gray, #575757);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 1.25rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 40.75rem solid #575757;
+
+
+}
+
+
+#icon {
+  width: 3.0625rem;
+  height: 3.0625rem;
+  flex-shrink: 0;
+  position: absolute;
+  color: #FFF;
+  top: 5.5rem;
+  left: 3.25rem;
+
+}
+
+#icontwo {
+  width: 4.6875rem;
+  height: 4.6875rem;
+  flex-shrink: 0;
+}
+
+
+#meuBotao {
+  padding: 0.625rem 1.25rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
